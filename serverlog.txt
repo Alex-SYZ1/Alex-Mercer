@@ -11,3 +11,226 @@
 
 -----------服务器打开时间：2022-11-05 17:58:24，开始记录聊天-----------
 2022-11-05 17:58:30  1 进入了聊天室!
+
+
+-----------服务器打开时间：2022-11-05 18:08:35，开始记录聊天-----------
+
+
+-----------服务器打开时间：2022-11-05 18:09:29，开始记录聊天-----------
+2022-11-05 18:09:35  1 进入了聊天室!
+2022-11-05 18:09:40  1说：111
+
+
+-----------服务器打开时间：2022-11-05 18:36:05，开始记录聊天-----------
+2022-11-05 18:36:14  1 进入了聊天室!
+2022-11-05 18:44:04  1 离开了聊天室!
+2022-11-05 18:44:04  syz 进入了聊天室!
+2022-11-05 18:45:27  syz 离开了聊天室!
+2022-11-05 18:45:28  syz 进入了聊天室!
+2022-11-05 18:45:33  syz说：1
+2022-11-05 18:46:03  syz 离开了聊天室!
+2022-11-05 18:46:04  syz 进入了聊天室!
+2022-11-05 18:49:50  syz 离开了聊天室!
+2022-11-05 18:49:50  syz 进入了聊天室!
+2022-11-05 18:49:55  syz 离开了聊天室!
+2022-11-05 18:49:56  syz 进入了聊天室!
+2022-11-05 18:50:02  syz 离开了聊天室!
+2022-11-05 18:50:03  syz 进入了聊天室!
+2022-11-05 18:50:07  syz 离开了聊天室!
+2022-11-05 18:50:08  syz 进入了聊天室!
+2022-11-05 18:50:11  syz 离开了聊天室!
+2022-11-05 18:50:12  syz 进入了聊天室!
+2022-11-05 18:50:54  syz 离开了聊天室!
+2022-11-05 18:50:54  syz 进入了聊天室!
+2022-11-05 18:51:04  syz 离开了聊天室!
+2022-11-05 18:51:05  syz 进入了聊天室!
+2022-11-05 18:57:16  syz 离开了聊天室!
+2022-11-05 18:57:17  syz 进入了聊天室!
+2022-11-05 19:00:39  syz 离开了聊天室!
+2022-11-05 19:00:40  syz 进入了聊天室!
+2022-11-05 19:01:05  syz 离开了聊天室!
+
+
+-----------服务器打开时间：2022-11-05 19:20:28，开始记录聊天-----------
+2022-11-05 19:20:30  syz 进入了聊天室!
+2022-11-05 19:20:56  syz 离开了聊天室!
+2022-11-05 19:20:57  syz 进入了聊天室!
+2022-11-05 19:21:05  syz 离开了聊天室!
+2022-11-05 19:21:06  syz 进入了聊天室!
+2022-11-05 19:21:29  syz 离开了聊天室!
+2022-11-05 19:21:29  syz 进入了聊天室!
+2022-11-05 19:22:05  syz说：是emoji.emojize('初始规则： :thumbsup:\n',use_aliases=True)
+2022-11-05 19:22:14  syz说：1
+2022-11-05 19:22:43  syz 离开了聊天室!
+2022-11-05 19:22:44  syz 进入了聊天室!
+
+
+-----------服务器打开时间：2022-11-05 19:23:50，开始记录聊天-----------
+
+
+-----------服务器打开时间：2022-11-05 19:23:59，开始记录聊天-----------
+2022-11-05 19:24:02  syz 进入了聊天室!
+2022-11-05 19:24:53  syz1 进入了聊天室!
+
+
+-----------服务器打开时间：2022-11-05 19:24:55，开始记录聊天-----------
+2022-11-05 19:24:57  syz 进入了聊天室!
+2022-11-05 19:25:45  syz1 进入了聊天室!
+
+
+-----------服务器打开时间：2022-11-05 19:25:48，开始记录聊天-----------
+2022-11-05 19:25:51  syz 进入了聊天室!
+2022-11-05 19:26:08  syz 离开了聊天室!
+2022-11-05 19:26:09  syz 进入了聊天室!
+2022-11-05 19:26:11  syz说：初始规则： 
+
+2022-11-05 19:27:56  syz 离开了聊天室!
+2022-11-05 19:27:57  syz 进入了聊天室!
+2022-11-05 19:27:59  syz说：初始规则：:thumbs_up: 
+
+2022-11-05 19:28:56  syz 离开了聊天室!
+2022-11-05 19:28:57  syz 进入了聊天室!
+2022-11-05 19:28:59  syz说：初始规则：:thumbs_up: 
+
+2022-11-05 19:29:28  syz说：:thumbs_up: 
+
+2022-11-05 19:30:24  syz 离开了聊天室!
+2022-11-05 19:32:39  syz 进入了聊天室!
+2022-11-05 19:33:53  syz 离开了聊天室!
+2022-11-05 19:33:54  syz 进入了聊天室!
+2022-11-05 19:33:56  syz说：初始规则：:thumbs_up: 
+
+2022-11-05 19:34:18  syz 离开了聊天室!
+2022-11-05 19:34:19  syz 进入了聊天室!
+2022-11-05 19:34:21  syz说：初始规则：:thumbs_up: 
+
+2022-11-05 19:34:54  syz 离开了聊天室!
+2022-11-05 19:34:55  syz 进入了聊天室!
+2022-11-05 19:34:57  syz说：初始规则：:thumbs_up: 
+
+2022-11-05 19:35:01  syz 离开了聊天室!
+2022-11-05 19:35:02  syz 进入了聊天室!
+2022-11-05 19:35:04  syz说：初始规则：:thumbs_up: 
+
+2022-11-05 19:36:16  syz 离开了聊天室!
+2022-11-05 19:36:17  syz 进入了聊天室!
+2022-11-05 19:36:19  syz说：初始规则：:thumbs_up: 
+
+2022-11-05 19:38:53  syz 离开了聊天室!
+2022-11-05 19:38:54  syz 进入了聊天室!
+2022-11-05 19:39:00  syz 离开了聊天室!
+2022-11-05 19:39:23  syz 进入了聊天室!
+2022-11-05 19:39:37  syz 离开了聊天室!
+2022-11-05 19:39:37  syz 进入了聊天室!
+2022-11-05 19:39:53  syz 离开了聊天室!
+2022-11-05 19:39:54  syz 进入了聊天室!
+2022-11-05 19:40:11  syz 离开了聊天室!
+2022-11-05 19:40:12  syz 进入了聊天室!
+2022-11-05 19:40:42  syz 离开了聊天室!
+2022-11-05 19:40:42  syz 进入了聊天室!
+2022-11-05 19:41:41  syz 离开了聊天室!
+2022-11-05 19:41:42  syz 进入了聊天室!
+2022-11-05 19:42:56  syz 离开了聊天室!
+2022-11-05 19:42:57  syz 进入了聊天室!
+2022-11-05 19:42:59  syz说：初始规则：:thumbs_up: 
+
+2022-11-05 19:44:22  syz 离开了聊天室!
+2022-11-05 19:44:23  syz 进入了聊天室!
+2022-11-05 19:44:31  syz 离开了聊天室!
+2022-11-05 19:44:32  syz 进入了聊天室!
+2022-11-05 19:44:44  syz 离开了聊天室!
+2022-11-05 19:44:45  syz 进入了聊天室!
+2022-11-05 19:44:49  syz说：初始规则：:thumbs_up: 
+
+2022-11-05 19:45:52  syz 离开了聊天室!
+2022-11-05 19:45:53  syz 进入了聊天室!
+2022-11-05 19:46:12  syz 离开了聊天室!
+2022-11-05 19:46:13  syz 进入了聊天室!
+2022-11-05 19:46:44  syz 离开了聊天室!
+2022-11-05 19:46:45  syz 进入了聊天室!
+2022-11-05 19:46:47  syz说：初始规则：:thumbs_up: 
+
+2022-11-05 19:47:05  syz说：
+
+2022-11-05 19:47:06  syz说：
+
+2022-11-05 19:47:08  syz说：
+
+2022-11-05 19:47:10  syz说：
+
+2022-11-05 19:47:15  syz说：
+
+2022-11-05 19:47:16  syz说：
+
+2022-11-05 19:49:20  syz说：你好
+
+2022-11-05 19:53:37  syz 离开了聊天室!
+2022-11-05 19:53:37  syz 进入了聊天室!
+2022-11-05 19:54:02  syz 离开了聊天室!
+2022-11-05 19:54:03  syz 进入了聊天室!
+2022-11-05 19:55:01  syz 离开了聊天室!
+2022-11-05 19:55:01  syz 进入了聊天室!
+2022-11-05 19:55:12  syz 离开了聊天室!
+2022-11-05 19:55:13  syz 进入了聊天室!
+2022-11-05 20:02:08  syz 离开了聊天室!
+2022-11-05 20:02:08  syz 进入了聊天室!
+2022-11-05 20:02:47  syz 离开了聊天室!
+2022-11-05 20:02:48  syz 进入了聊天室!
+2022-11-05 20:04:16  syz 离开了聊天室!
+2022-11-05 20:04:17  syz 进入了聊天室!
+2022-11-05 20:04:28  syz 离开了聊天室!
+2022-11-05 20:04:28  syz 进入了聊天室!
+2022-11-05 20:04:37  syz 离开了聊天室!
+2022-11-05 20:04:37  syz 进入了聊天室!
+2022-11-05 20:05:37  syz 离开了聊天室!
+2022-11-05 20:05:38  syz 进入了聊天室!
+2022-11-05 20:06:26  syz 离开了聊天室!
+2022-11-05 20:06:26  syz 进入了聊天室!
+2022-11-05 20:07:37  syz 离开了聊天室!
+2022-11-05 20:07:38  syz 进入了聊天室!
+2022-11-05 20:08:32  syz 离开了聊天室!
+2022-11-05 20:08:33  syz 进入了聊天室!
+2022-11-05 20:08:50  syz 离开了聊天室!
+2022-11-05 20:08:51  syz 进入了聊天室!
+2022-11-05 20:09:02  syz说：初始规则：:thumbs_up: :thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+
+2022-11-05 20:09:36  syz 离开了聊天室!
+2022-11-05 20:09:37  syz 进入了聊天室!
+2022-11-05 20:10:12  syz 离开了聊天室!
+2022-11-05 20:10:13  syz 进入了聊天室!
+2022-11-05 20:12:01  syz说：你好！
+
+2022-11-05 20:12:07  syz说：你是谁？
+
+2022-11-05 20:13:55  syz说：我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thu
+2022-11-05 20:13:56  syz说：mbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:111111111:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_u
+2022-11-05 20:13:56  syz说：p::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+我是黑牛大:thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up::thumbs_up:
+111
+
+2022-11-05 20:15:08  syz 离开了聊天室!
