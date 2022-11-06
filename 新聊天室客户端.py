@@ -7,7 +7,7 @@ import tkinter
 import tkinter.messagebox
 from tkinter.scrolledtext import ScrolledText
 import emoji#请pip install --upgrade emoji==1.6.3
-
+from ej import ej_dict
 ISOTIMEFORMAT = '%Y-%m-%d %H:%M:%S'  # 时间格式声明
 s = socket()  # 套接字
 
@@ -109,13 +109,11 @@ def Chat_gui_run():
         ej_sb.pack(side='right', fill='y')
         ejs = Text(choose, width=188,bg="black",height="188",yscrollcommand=sb.set,cursor="heart")
         ejs.pack()
-     
         ej_sb.config(command=ejs.yview)
-        sss=emoji.emojize(':thumbsup:',use_aliases=True)
-
-        creator=Button(ejs,command=lambda:insert_ej(sss),text=sss)
-        ejs.window_create('end', window=creator)
-        
+        emojis=list(ej_dict.values())
+        for j in range(len(emojis)):
+            #sss=emoji.emojize(i,use_aliases=True)
+            ejs.window_create('end', window=Button(ejs,command=lambda:insert_ej(emojis[j]),text=emojis[j]))
         ejs.config(state="disabled")
         def insert_ej(a):
             entryInput.insert("end",a)
