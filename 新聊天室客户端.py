@@ -7,7 +7,7 @@ import tkinter
 import tkinter.messagebox
 from tkinter.scrolledtext import ScrolledText
 import emoji#请pip install --upgrade emoji==1.6.3
-from ej import ej_dict
+from ej import *
 ISOTIMEFORMAT = '%Y-%m-%d %H:%M:%S'  # 时间格式声明
 s = socket()  # 套接字
 
@@ -18,7 +18,7 @@ def Login_gui_run():
     root.title("聊天系统·登录")  # 窗口标题
     frm = Frame(root)
 
-    root.geometry('300x150')  # 窗口大小
+    root.geometry('300x150+200+200')  # 窗口大小
 
     nickname = StringVar()  # 昵称变量
 
@@ -47,7 +47,8 @@ def Chat_gui_run():
     window = Tk()
     window.maxsize(650, 400)  # 设置相同的最大最小尺寸，将窗口大小固定
     window.minsize(650, 400)
-
+    stateVar=StringVar()
+    stateVar.set("对所有人说：")
     var1 = StringVar()
     user_list = []
     user_list = s.recv(2048).decode('utf-8').split(',')  # 从服务器端获取用户列表
@@ -57,18 +58,20 @@ def Chat_gui_run():
     window.title("聊天系统--" + nickname)  # 设置窗口标题，体现用户专属窗口（不是）
     var1.set(user_list)  # 用户列表文本设置
     # var1.set([1,2,3,5])
+    
     listbox1 = Listbox(window, listvariable=var1)  # 用户列表，使用Listbox组件
     listbox1.place(x=510, y=0, width=140, height=300)
     
-    listbox = ScrolledText(window,state="disabled")  # 聊天信息窗口，使用ScrolledText组件制作
+    listbox = ScrolledText(window,state="disabled",font=('华文楷体', '14',"bold"))  # 聊天信息窗口，使用ScrolledText组件制作
     listbox.place(x=5, y=0, width=500, height=300)
 
     # 接收服务器发来的消息并显示到聊天信息窗口上，与此同时监控用户列表更新
     def read_server(s):
         while True:
-            listbox.config(state="normal")
+            
             content = emoji.emojize(s.recv(2048).decode('utf-8'))  # 接收服务器端发来的消息
             print(content)
+            if content!="":listbox.config(state="normal")
             curtime = datetime.now().strftime(ISOTIMEFORMAT)  # 获取系统时间
             listbox.insert(tkinter.END, curtime)  # 聊天信息窗口显示（打印）
             listbox.insert(tkinter.END, '\n' + content + '\n\n')
@@ -88,9 +91,10 @@ def Chat_gui_run():
 
     sb = Scrollbar()               # 创建Scrollbar组件
     sb.place(x=5, y=305,height=95)
-    entryInput = Text(window, width=140,yscrollcommand=sb.set,cursor="heart")
-    entryInput.insert("end",emoji.emojize('初始规则：:thumbsup: ',use_aliases=True))
-    entryInput.place(x=5, y=305, width=600, height=95)
+    talkstate=Label(window,textvariable=stateVar,font=('华文楷体', '10',"bold"))
+    talkstate.place(x=5,y=305,height=10)
+    entryInput = Text(window, width=140,yscrollcommand=sb.set,cursor="heart",font=('华文楷体', '17',"bold"))
+    entryInput.place(x=5, y=315, width=600, height=85)
     sb.config(command=entryInput.yview)
 
     # 发送按钮触发的函数，即发送信息
@@ -104,19 +108,18 @@ def Chat_gui_run():
         choose=Toplevel()
         choose.title("#")#请选择您想要插入输入框的emoji
         choose.attributes("-topmost",True)
-        choose.geometry("188x188+600+200")
+        
+        choose.geometry("500x300+750+60")
         ej_sb = Scrollbar(choose)               # 创建Scrollbar组件
         ej_sb.pack(side='right', fill='y')
-        ejs = Text(choose, width=188,bg="black",height="188",yscrollcommand=sb.set,cursor="heart")
+        ejs = Text(choose, width=188,bg="black",height=188,yscrollcommand=sb.set,cursor="heart")
         ejs.pack()
         ej_sb.config(command=ejs.yview)
+        
         emojis=list(ej_dict.values())
-        for j in range(len(emojis)):
-            #sss=emoji.emojize(i,use_aliases=True)
-            ejs.window_create('end', window=Button(ejs,command=lambda:insert_ej(emojis[j]),text=emojis[j]))
+        draw(ejs,entryInput,Button)
         ejs.config(state="disabled")
-        def insert_ej(a):
-            entryInput.insert("end",a)
+   
         
         pass
     # 添加emoji按钮
@@ -134,7 +137,7 @@ def Chat_gui_run():
     window.mainloop()
 
 
-#Login_gui_run()
-s.connect(('127.0.0.1', 30000))  # 建立连接
-s.send("syz".encode('utf-8'))  # 传递用户昵称
-Chat_gui_run()  # 打开聊天窗口
+Login_gui_run()
+#s.connect(('127.0.0.1', 30000))  # 建立连接
+#s.send("syz".encode('utf-8'))  # 传递用户昵称
+#Chat_gui_run()  # 打开聊天窗口
