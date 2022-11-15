@@ -7,9 +7,11 @@ from datetime import *
 ISOTIMEFORMAT = '%Y-%m-%d %H:%M:%S'                     
  
 # 设置IP地址和端口号
-IP = '127.0.0.1'
-PORT = 30000
- 
+#IP = '127.0.0.1'
+HOST= gethostbyname(gethostname())
+IP=HOST
+PORT = 3000
+print(f"您的IP地址为{IP}，客户端只需输入此IP即可进入聊天室")
 # 用户列表和套接字列表，用于后面给每个套接字发送信息
 user_list = []
 socket_list = []
@@ -45,22 +47,35 @@ def read_client(s, nickname):
  
 # 接收Client端消息并发送
 def socket_target(s, nickname):                         
-    try:
+        #try:
         s.send((','.join(user_list)).encode('utf-8'))               # 将用户列表送给各个套接字，用逗号隔开
         while True:
             content = read_client(s, nickname)                      # 获取用户发送的消息
             if content is None:
                 break
             else:
+                
                 curtime = datetime.now().strftime(ISOTIMEFORMAT)    # 系统时间打印
                 print(curtime)
-                print(nickname+'说：'+content)
-                with open('serverlog.txt', 'a+') as serverlog:      # log记录
-                    serverlog.write(str(curtime) + '  ' + nickname + '说：' + content + '\n')
-                for client in socket_list:                          # 其他套接字通知
-                    client.send((nickname + '说:'+ content).encode('utf-8'))
-    except:
-        print('Error!')
+                if "悄悄说" in content and content[0]=="对":
+                    print(nickname+"："+content)
+                    with open('serverlog.txt', 'a+') as serverlog:      # log记录
+                        serverlog.write(str(curtime) + '  ' +nickname+"："+content + '\n')
+                        target_user=user_list.index(content[1:content.index("悄悄说:")])#私发对象
+                        target_socket=socket_list[target_user]#私发对象的socket
+                        target_socket.send((nickname + '悄悄对你说:'+ content[content.index("悄悄说:")+4:]).encode('utf-8'))
+                        send_user=user_list.index(nickname)#私发者
+                        send_socket=socket_list[send_user]#私发者的socket
+                        send_socket.send(("你对"+content[1:content.index("悄悄说:")]+ content[content.index("悄悄说:"):]).encode('utf-8'))
+                        
+                else:
+                    print(nickname+'说:'+content)
+                    with open('serverlog.txt', 'a+') as serverlog:      # log记录
+                        serverlog.write(str(curtime) + '  ' + nickname + '说:' + content + '\n')
+                    for client in socket_list:                          # 其他套接字通知
+                        client.send((nickname + '说:'+ content).encode('utf-8'))
+        #except:
+        #print('Error!')
  
 while True:                                                     # 不断接受新的套接字进来，实现“多人”
     conn, addr = s.accept()                                     # 获取套接字与此套接字的地址
